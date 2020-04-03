@@ -10,6 +10,7 @@ How to use this project:
 7. Run mv laravel_temp/*
 8. Run mv laravel_temp/.[!.]* .
 9. Run rm -r laravel_temp
+10. Open Laravel's .env file and update the db details (use same as in docker-compose .env, except make DB_HOST=mysql).
 
 Build:
 ```
