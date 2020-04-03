@@ -5,7 +5,7 @@ How to use this project:
 3. copy .env-example to .env and change the values as desired.
 3. Run sudo docker-compose build
 4. Run sudo docker-compose up -d
-5. Run sudo docker-compose exec app bash
+5. Run sudo docker-compose exec php bash
 6. Run composer create-project laravel/laravel laravel_temp
 7. Run mv laravel_temp/*
 8. Run mv laravel_temp/.[!.]* .
