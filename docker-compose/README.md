@@ -9,7 +9,7 @@ COMPOSE_PROJECT_NAME will be used in container, network and volume? names.
 6. Run sudo docker-compose up -d
 7. Run sudo docker-compose exec php bash
 8. Run composer create-project laravel/laravel laravel_temp
-9. Run mv laravel_temp/*
+9. Run mv laravel_temp/* .
 10. Run mv laravel_temp/.[!.]* .
 11. Run rm -r laravel_temp
 12. Open Laravel's .env file and update the db details (use same as in docker-compose .env, except make DB_HOST=mysql).
