@@ -3,7 +3,8 @@ How to use this project:
 1. Clone this repo.
 2. Remove the .git directory (you will initialize your own repo for your project).
 3. cd into docker-compose
-4. copy .env-example to .env and change the values as desired.
+4. copy .env-example to .env and change the values as desired ( 
+COMPOSE_PROJECT_NAME will be used in container, network and volume? names.
 5. Run sudo docker-compose build
 6. Run sudo docker-compose up -d
 7. Run sudo docker-compose exec php bash
